@@ -12,6 +12,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use('/profiles', profileController);
 
-app.listen(4000, () => {
-  console.log('Meet your match on port 4000');
+app.listen(8080, () => {
+  console.log('Meet your match on port 8080');
 });
