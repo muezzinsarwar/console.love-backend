@@ -4,6 +4,7 @@ const supertest = require('supertest');
 
 const api = supertest('http://localhost:4000');
 
+// Really nice job with these tests!
 describe('GET /profiles', () => {
   it('should return a 200 response', done => {
     api
